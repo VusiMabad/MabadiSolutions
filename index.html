@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mabadi Solutions | Business Automation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 40px 20px;
+      min-height: 25vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: linear-gradient(-45deg, #003f7f, #006f88, #007f6b, #ff6f61);
+      background-size: 600% 600%;
+      animation: gradientShift 15s ease infinite;
+      border-bottom-left-radius: 50% 30%;
+      border-bottom-right-radius: 50% 30%;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .hero img {
+      width: 180px;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transform: translateY(-30px);
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      z-index: 1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      z-index: 1;
+    }
+
+    .hero .cta-button {
+      padding: 12px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      z-index: 1;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero .cta-button:hover {
+      background-color: #005f8d;
+    }
+
+    .services {
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      background-color: #ffffff;
+    }
+
+    .service-card {
+      background: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      transition: transform 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h3 {
+      margin-top: 0;
+      color: #003f7f;
+    }
+
+    footer {
+      background-color: #003f7f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <img src="logo.png" alt="Mabadi Solutions Logo" />
+    <h1>Smarter Automations for Growth</h1>
+    <p>Transform your business operations with seamless automation and focus on what matters most.</p>
+    <a href="solutions.html" class="cta-button">Discover Our Solutions</a>
+  </section>
+
+  <section id="services" class="services">
+    <div class="service-card">
+      <h3>Lead Management Automation</h3>
+      <p>Capture, qualify, and assign leads instantly with smart integrations tailored to your workflow.</p>
+    </div>
+    <div class="service-card">
+      <h3>Appointment Booking</h3>
+      <p>Let your customers book time directly with your team through fully automated scheduling systems.</p>
+    </div>
+    <div class="service-card">
+      <h3>Workflow Automation</h3>
+      <p>Eliminate repetitive work by connecting your CRM, email, and apps into seamless automated workflows.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mabadi Solutions. All rights reserved. | Contact: info@mabadisolutions.com</p>
+  </footer>
+</body>
+</html>
